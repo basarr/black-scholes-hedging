@@ -2,7 +2,11 @@
 # Black–Scholes Pricing and Discrete-Time Delta Hedging
 
 ## Overview
-This repository is an educational illustration of Black–Scholes pricing and discrete-time delta hedging for a European call. It emphasizes the mechanics and limitations of delta hedging on historical data, not trading optimization.
+This repository implements a discrete-time Black–Scholes delta-hedging simulation using historical market data.  
+The project was developed as a self-directed extension of my university coursework ("Introduction to Python") to deepen my understanding of option pricing, Greeks, and replication in practice.
+
+Historical price data are sourced from Stooq, and the methodology follows standard delta-replication arguments discussed in academic and practitioner references (e.g. Quant StackExchange).  
+The focus is on illustrating how discrete rebalancing, time-varying volatility estimates, and finite hedging intervals generate observable hedging errors relative to the continuous-time Black–Scholes model.
 
 The objective is to show how continuous-time hedging theory translates to practice with discrete rebalancing, estimated volatility, and real price paths.
 
