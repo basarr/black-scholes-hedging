@@ -85,10 +85,8 @@ data/
 raw/                # raw downloaded price data
 processed/          # processed paths and hedging results
 figures/              # generated plots
-notebooks/
-01_bs_delta_hedging.ipynb
-src/
-black_scholes.py    # Black–Scholes price and delta functions
+notebooks/01_bs_delta_hedging.ipynb
+src/black_scholes.py    # Black–Scholes price and delta functions
 ---
 
 ## Notes
